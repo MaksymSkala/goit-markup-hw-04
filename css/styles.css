@@ -385,13 +385,66 @@ button {
     color: var(--color-ocean);
 }
 
-/* Footer section */
+/* Customers section */
 
-.footer-container {
-    
+.customers-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;    
+
+}
+
+.customers-item {
     
 }
 
+.customers-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;    
+    margin-bottom: 120px;    
+    border-radius: 4px;
+    border: 1px solid var(--color-light-slate);
+}
+
+.customers-icon {
+    fill: var(--color-light-slate);    
+}
+.customers-icon:hover {
+    fill: var(--color-ocean);
+}
+
+
+/* Footer section */
+
+.footer-container {    
+    
+    padding: 0;
+    
+}
+
+.footer-contact {
+    display: flex;
+    gap: 16px;
+}
+.footer-main-container {
+    display: flex;    
+}
+
+.footer-contacts-container {
+    padding: 0;
+}
+
+.footer-icon {
+        
+}
+
+.footer-icon-contact {
+    
+    
+}
 .footer {           
     
     background: var(--color-grey);
@@ -418,6 +471,24 @@ button {
     max-width: 264px;    
     margin: 0 0;
     color: var(--color-cloud);
+}
+
+.footer-text-contacts {
+    margin-bottom: 16px;
+    font-weight: 500;
+}
+
+.footer-icon-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-icon-contact {
+    
+}
+
+.footer-icon-contact:hover {
+    background: var(--color-green);
 }
 
 /* Button section portfolio */
@@ -525,6 +596,11 @@ button {
 
 .portfolio-section {  
     display: block;
+}
+
+.portfolio-section:hover,
+.portfolio-section:focus {    
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-item {    
