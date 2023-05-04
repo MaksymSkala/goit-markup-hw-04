@@ -153,7 +153,7 @@ button {
 .header-container {
     display: flex;
     align-items: center;
-    
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 /* Header styles */
@@ -360,7 +360,7 @@ button {
 }
 
 .team-img {    
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    
 }
 
 .team-text-container {
@@ -388,6 +388,10 @@ button {
 .team-icon-link:hover,
 .team-icon-link:focus {
     background-color: var(--color-ocean)
+}
+
+.team-icon-contact {
+    fill: var(--color-cloud);
 }
 
 /* Customers section */
@@ -435,7 +439,7 @@ button {
 /* Footer section */
 
 .footer-container {    
-        
+    gap: 120px;    
 }
 
 .footer-contact {
@@ -643,5 +647,6 @@ button {
 }
 
 .card-set-item {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     flex-basis: calc((100% - var(--indent) * var(--items) - 1)) / var(--items);
 }
