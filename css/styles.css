@@ -47,7 +47,8 @@ html {
     text-transform: none;
 }
 .main-title-light { 
-    margin: 0 0 48px 0;        
+    margin: 0 auto;
+    margin-bottom: 48px;        
     max-width: 496px;  
     font-size: 56px;
     line-height: 1.07;
@@ -245,6 +246,7 @@ button {
 
 /* Hero section */
 .hero {
+    text-align: center;
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;    
@@ -257,8 +259,7 @@ button {
     padding: 188px 0 188px;    
 }
 
-.hero-container {    
-    display: flex;    
+.hero-container {        
     flex-direction: column;
     align-items: center;
              
@@ -315,7 +316,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 24px;
+    height: 112px;
     border-radius: 4px;
     margin-bottom: 8px;
     background: var(--color-cloud);
@@ -371,7 +372,7 @@ button {
     display: flex;    
     align-items: center;
     justify-content: center;
-    padding-top: 8px;
+    margin-top: 8px;
     gap: 24px;
 
 }
@@ -417,8 +418,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
-    padding: 16px 32px;       
+    height: 100%;           
     border-radius: 4px;
     color: var(--color-light-slate);
     border-color: var(--color-ocean);
@@ -438,7 +438,7 @@ button {
 /* Footer section */
 
 .footer-container {    
-    gap: 120px;    
+    margin-right: 120px;    
 }
 
 .footer-contact {
@@ -464,8 +464,7 @@ button {
     
     
 }
-.footer {           
-    
+.footer {    
     background: var(--color-grey);
     padding: 100px 0 100px 0;
 }
@@ -487,7 +486,7 @@ button {
 }
 
 .footer-text {
-    max-width: 264px;    
+    width: 264px;    
     margin: 0;
     color: var(--color-white);
 }
@@ -526,6 +525,7 @@ button {
     gap: 24px;    
     margin-bottom: 72px;
 }
+
 .button-section-item {
     
 }
@@ -537,9 +537,7 @@ button {
     font-family: "Roboto", sans-serif;  
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.5;      
-    display: flex;
-    align-items: center;
+    line-height: 1.5;    
     text-align: center;
     letter-spacing: 0.04em;
     cursor: pointer;      
@@ -562,9 +560,7 @@ button {
     font-family: "Roboto", sans-serif;  
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.5;      
-    display: flex;
-    align-items: center;
+    line-height: 1.5;    
     text-align: center;
     letter-spacing: 0.04em;
     cursor: pointer;   
