@@ -447,8 +447,7 @@ button {
 }
 
 .footer-main-container {
-    display: flex;
-    justify-content: center;
+    display: flex;    
     align-items: baseline;
 }
 
